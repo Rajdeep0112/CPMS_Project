@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:minHeight="45dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sr_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/fir_no_and_year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="fir no / year"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/reg_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="date"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/ps_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/table_item_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="ps name"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/year"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="0.7"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:text="year"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+
+        </LinearLayout>
+
+    </TableRow>
+</LinearLayout>

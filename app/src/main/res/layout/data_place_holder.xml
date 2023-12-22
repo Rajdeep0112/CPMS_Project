@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:minHeight="45dp">-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--            <View-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/table_item_background"-->
+<!--                android:backgroundTint="@color/background"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="5dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="13sp" />-->
+
+<!--        </LinearLayout>-->
+
+<!--    </TableRow>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/background"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CPMSMobileApp"
+        tools:targetApi="tiramisu">
+        <activity
+            android:name=".reports.dutr.PsWiseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.surrender.CourtWiseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.DateRangeWiseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.CourtWiseCaseAccusedReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.CrimeHeadWiseCaseAccusedReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.DateRangeCaseAccusedReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.FirNoWiseCaseAccusedReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.RespectiveCaseAccusedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.CourtWiseAbsenteeReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.WitnessTypeWiseAbsenteeReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.notice.SubDateRangeReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.notice.SubNoticePendencyReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.surrender.RespectiveSurrenderReportDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.surrender.DateWiseSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.surrender.CaseNoWiseSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.RespectiveBailerReportDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.CriminalNameWiseSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.BailerNameWiseSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.FirNoWiseSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.RespectiveAbsenteeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.WitnessWiseReport"
+            android:exported="false" />
+        <activity
+            android:name=".reports.dutr.RespectiveDutrDetails"
+            android:exported="false" />
+        <activity
+            android:name=".reports.dutr.DutrWiseReport"
+            android:exported="false" />
+        <activity
+            android:name=".RespectiveHearingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RespectiveNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.surrender.SurrenderAccusedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.notice.NoticePendencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.dutr.DutrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.caseacc.CaseAccusedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.bailer.BailerReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.AbsenteeReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RespectiveCaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchCaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneratePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".reports.absentee.FirNoWiseAbsenteeReport"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>
